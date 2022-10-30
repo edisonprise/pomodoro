@@ -1,0 +1,7 @@
+[core]
+	editor = \"C:\\Users\\janus\\AppData\\Local\\Programs\\Microsoft VS Code\\Microsoft VS Code\\bin\\code\" --wait
+	longpaths = true
+[user]
+	mail = edisonprise@hotmail.com
+	name = Edinson
+	email = edisonprise@hotmail.com
