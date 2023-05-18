@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- signo de ! y luego tab para la estructura basica-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="app">
+      <!-- #app y tab -->
+      <div id="time">
+        <div id="value"></div>
+        <div id="taskName"></div>
+      </div>
+
+      <div class="tasks-container">
+        <!-- .tasks-container -->
+        <div class="form">
+          <!-- .form -->
+          <form action="" id="form">
+            <!-- form/etiqueta -->
+            <input type="text" id="itTask" /><!-- input#itTask -->
+            <input
+              type="submit"
+              id="bAdd"
+              value="Agregar Tarea"
+            /><!-- input:submit -->
+          </form>
+        </div>
+        <div id="tasks"></div>
+        <!-- #tasks -->
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
